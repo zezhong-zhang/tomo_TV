@@ -1,4 +1,4 @@
-CXX = g++ -fPIC -Xclang -fopenmp
+CXX = g++ -fPIC -fopenmp
 MPXX = mpicc
 CXXFLAGS = -O3 -Wno-div-by-zero -shared -std=c++11 -ffast-math 
 EIGEN = -I ../../thirdparty/eigen 

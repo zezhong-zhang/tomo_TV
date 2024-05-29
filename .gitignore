@@ -4,3 +4,8 @@
 *.pyc
 3D/Tilt_Series/*
 *.so
+gpu_3D/Utils/container/
+gpu_3D/Utils/regularizers/*.o
+thirdparty/astra-toolbox
+thirdparty/eigen
+thirdparty/astra/lib/

@@ -9,3 +9,6 @@ gpu_3D/Utils/regularizers/*.o
 thirdparty/astra-toolbox
 thirdparty/eigen
 thirdparty/astra/lib/
+fused_multi_modal/Utils/container/*.out
+fused_multi_modal/Utils/container/*.o
+fused_multi_modal/Utils/regularizers/*.o

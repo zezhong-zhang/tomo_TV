@@ -15,7 +15,7 @@ shared_library:
 	nvcc -allow-unsupported-compiler -shared container/*.o regularizers/*.o -o aux_func.so
 
 mm_astra: mm_astra.cpp mm_astra.hpp
-	$(CXX) $(CXXFLAGS) $(EIGEN) $(ASTRA) $(CUDA) $(NonPAR_HDF5_INC) mm_astra.cpp -o $(MMGPUCONFIG) $(ASTRA_LIB) aux_func.so 
+	$(CXX) $(CXXFLAGS) $(EIGEN) $(ASTRA) $(CUDA) $(NonPAR_HDF5_INC) mm_astra.cpp -o $(MMGPUCONFIG) $(ASTRA_LIB) /home/zzhang/OneDrive/code/tomo_TV/fused_multi_modal/Utils/aux_func.so
 
 clean:
 	rm -rf *.so *.o
